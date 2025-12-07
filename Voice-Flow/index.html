@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>voiceflow</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- Voiceflow чат-бот -->
+    <script src="https://cdn.voiceflow.com/widget/bundle.mjs"></script>
+    <script>
+      window.voiceflow.chat.load({
+        verify: { projectID: "69344f9a38f22f865bba35dc" },
+        url: "https://general-runtime.voiceflow.com",
+        versionID: "69344f9a38f22f865bba35dd",
+      });
+    </script>
+  </body>
+</html>
