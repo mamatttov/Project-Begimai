@@ -1,11 +1,11 @@
 import "./App.css";
-import { LogIn } from "./LogIn.jsx";
+import IstanbulCareHospital from "./IstanbulCareHospital";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="containerApp">
-      <LogIn />
+    <div>
+      <IstanbulCareHospital />
     </div>
   );
 }
