@@ -1,4 +1,3 @@
-import "./App.css";
 import IstanbulCareHospital from "./IstanbulCareHospital";
 import "bootstrap/dist/css/bootstrap.min.css";
 
