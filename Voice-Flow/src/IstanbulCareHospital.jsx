@@ -8,7 +8,7 @@ export default function IstanbulCareHospital() {
       >
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="#">
-            <span className="me-2" style={flagStyle}></span>
+            <span>❤️</span>
             Istanbul Care Hospital
           </a>
           <button
@@ -288,7 +288,7 @@ export default function IstanbulCareHospital() {
                 <div className="card-body">
                   <h5 className="mb-3">International coordination team</h5>
                   <div className="d-flex align-items-center mb-3">
-                    <div style={doctorAvatarStyle}>AK</div>
+                    <div style={doctorAvatarStyle}>BE</div>
                     <div>
                       <div className="fw-semibold">Begimai Eshbaeva</div>
                       <div className="small text-muted">
@@ -303,8 +303,7 @@ export default function IstanbulCareHospital() {
                   </p>
                   <hr />
                   <p className="small mb-1">
-                    📱 WhatsApp for requests:{" "}
-                    <strong>+90 (000) 000 00 00</strong>
+                    📱 WhatsApp for requests: <strong>+90 542 234 92 84</strong>
                   </p>
                   <p className="small mb-0">
                     ✉ International patients department:{" "}
@@ -603,13 +602,4 @@ const doctorAvatarStyle = {
   color: "#fff",
   fontWeight: 600,
   marginRight: 10,
-};
-
-const flagStyle = {
-  width: 18,
-  height: 18,
-  borderRadius: "50%",
-  background: "#e11d48",
-  position: "relative",
-  overflow: "hidden",
 };
